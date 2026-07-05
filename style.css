@@ -11,13 +11,40 @@
     padding: 0px;
 }
 
+
+
+.no-highlight {
+    border: 2px solid green;
+
+}
+
+h3 {
+    border: 1px solid purple !important;
+}
+
+/* The Element Must Match Both Selector (a. .no-highlight) */
+a.no-highlight{
+    color: greenyellow;
+}
+
+/* Element Must Match Atleast One Of The Selector */
+p,
+a{
+    color: red;
+}
+
 body {
     font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 h1 {
     font-family: Georgia, serif;
-    color: coral;
+    color: lightblue;
+}
+
+p{
+    line-height: 25px;
+    text-align: justify;
 }
 
 .code {
@@ -42,7 +69,7 @@ h1 {
     font-weight: 300;
 }
 
-.normal{
+.normal {
     font-weight: 400;
 }
 
@@ -52,6 +79,38 @@ h1 {
 
 .black {
     font-weight: 900;
+}
+
+.text-xs {
+    font-size: 12px;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.text-normal {
+    font-size: 16px;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.text-xl {
+    font-size: 20px;
+}
+
+.text-2xl {
+    font-size: 22px;
+}
+
+.text-3xl {
+    font-size: 24px;
+}
+
+.text-5xl {
+    font-size: 40px;
 }
 
 #free-wifi {
